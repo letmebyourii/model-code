@@ -4,3 +4,10 @@ models/yolo26n.pt
 models/yolov8n.pt 
 models/yolov8x.pt 
 models/yolo26n.pt
+runs/detect
+runs/segment
+yolo26n.pt
+yoloe-26s-seg.pt
+yolov8n-oiv7.pt
+yolov8s-worldv2.pt
+yolov8x-worldv2.pt
