@@ -1,4 +1,5 @@
-# taken directly from https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html
+# Code taken completely from the OpenCV tutorial
+# https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html
 
 import numpy as np
 import cv2 as cv
