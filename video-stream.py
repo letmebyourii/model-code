@@ -5,6 +5,7 @@ import numpy as np
 import cv2 as cv
 from ultralytics import YOLO
  
+#replace here for model
 model = YOLO("yolov8n-oiv7.pt")
 
 
@@ -27,7 +28,12 @@ while True:
     if cv.waitKey(1) == ord('q'):
         break
 
-    detection = model.predict(source='0', show=True)
+    #model runs here 
+    detection = model.predict(source='0', show=True, conf=0.05)
+
+
+
+
 
 
 
