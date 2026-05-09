@@ -51,7 +51,7 @@ def detect():
     try:
         results = model.predict(
             frame,
-            conf=0.25,
+            conf=0.05,
             imgsz=320,
             max_det=10,
             verbose=False
