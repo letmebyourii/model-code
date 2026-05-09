@@ -1,3 +1,7 @@
+# Code taken from the OpenCV tutorial
+# https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html
+
+
 from flask import Flask, render_template, request, jsonify
 from ultralytics import YOLO
 import numpy as np
